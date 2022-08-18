@@ -6309,6 +6309,24 @@ type AnalyticsCodeIntelResult {
 }
 
 """
+CodeIntelByLanguage analytics.
+"""
+type AnalyticsCodeIntelByLanguageResult {
+    """
+    Language
+    """
+    language: String!
+    """
+    Precision
+    """
+    precision: String!
+    """
+    Count
+    """
+    count: Float!
+}
+
+"""
 Repositories summary.
 """
 type AnalyticsReposSummartResult {
@@ -6356,6 +6374,10 @@ type Analytics {
     Code-intelligence statistics.
     """
     codeIntel(dateRange: AnalyticsDateRange, grouping: AnalyticsGrouping): AnalyticsCodeIntelResult!
+    """
+    Code-intelligence statistics grouped by language and precision.
+    """
+    codeIntelByLanguage(dateRange: AnalyticsDateRange): [AnalyticsCodeIntelByLanguageResult!]!
     """
     Repositories summary statistics.
     """
