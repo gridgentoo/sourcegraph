@@ -1,12 +1,118 @@
 package_manager,name,version,licenses,homepage,approved
+Yarn,@ampproject/remapping,2.1.2,Apache 2.0,Unknown,Approved
 Yarn,@apollo/client,3.5.10,MIT,https://www.apollographql.com/docs/react/,Approved
 Yarn,@babel/code-frame,7.18.6,MIT,https://babel.dev/docs/en/next/babel-code-frame,Approved
+Yarn,@babel/compat-data,7.17.0,MIT,https://babel.dev/team,Approved
+Yarn,@babel/core,7.17.5,MIT,https://babel.dev/docs/en/next/babel-core,Approved
+Yarn,@babel/generator,7.18.0,MIT,https://babel.dev/docs/en/next/babel-generator,Approved
+Yarn,@babel/helper-annotate-as-pure,7.16.7,MIT,https://babel.dev/docs/en/next/babel-helper-annotate-as-pure,Approved
+Yarn,@babel/helper-builder-binary-assignment-operator-visitor,7.12.13,MIT,https://babel.dev/docs/en/next/babel-helper-builder-binary-assignment-operator-visitor,Approved
+Yarn,@babel/helper-compilation-targets,7.16.7,MIT,https://babel.dev/team,Approved
+Yarn,@babel/helper-create-class-features-plugin,7.18.0,MIT,https://babel.dev/team,Approved
+Yarn,@babel/helper-create-regexp-features-plugin,7.12.17,MIT,https://babel.dev/team,Approved
+Yarn,@babel/helper-define-polyfill-provider,0.1.5,MIT,Unknown,Approved
+Yarn,@babel/helper-define-polyfill-provider,0.2.0,MIT,Unknown,Approved
+Yarn,@babel/helper-environment-visitor,7.16.7,MIT,https://babel.dev/docs/en/next/babel-helper-environment-visitor,Approved
+Yarn,@babel/helper-explode-assignable-expression,7.13.0,MIT,https://babel.dev/docs/en/next/babel-helper-explode-assignable-expression,Approved
+Yarn,@babel/helper-function-name,7.17.9,MIT,https://babel.dev/docs/en/next/babel-helper-function-name,Approved
+Yarn,@babel/helper-hoist-variables,7.16.7,MIT,https://babel.dev/docs/en/next/babel-helper-hoist-variables,Approved
+Yarn,@babel/helper-member-expression-to-functions,7.17.7,MIT,https://babel.dev/docs/en/next/babel-helper-member-expression-to-functions,Approved
 Yarn,@babel/helper-module-imports,7.16.7,MIT,https://babel.dev/docs/en/next/babel-helper-module-imports,Approved
+Yarn,@babel/helper-module-transforms,7.17.6,MIT,https://babel.dev/docs/en/next/babel-helper-module-transforms,Approved
+Yarn,@babel/helper-optimise-call-expression,7.16.7,MIT,https://babel.dev/docs/en/next/babel-helper-optimise-call-expression,Approved
 Yarn,@babel/helper-plugin-utils,7.17.12,MIT,https://babel.dev/docs/en/next/babel-helper-plugin-utils,Approved
+Yarn,@babel/helper-remap-async-to-generator,7.13.0,MIT,https://babel.dev/docs/en/next/babel-helper-remap-async-to-generator,Approved
+Yarn,@babel/helper-replace-supers,7.16.7,MIT,https://babel.dev/docs/en/next/babel-helper-replace-supers,Approved
+Yarn,@babel/helper-simple-access,7.16.7,MIT,https://babel.dev/docs/en/next/babel-helper-simple-access,Approved
+Yarn,@babel/helper-skip-transparent-expression-wrappers,7.12.1,MIT,Unknown,Approved
+Yarn,@babel/helper-split-export-declaration,7.16.7,MIT,https://babel.dev/docs/en/next/babel-helper-split-export-declaration,Approved
 Yarn,@babel/helper-validator-identifier,7.18.6,MIT,https://babel.dev/team,Approved
+Yarn,@babel/helper-validator-option,7.16.7,MIT,https://babel.dev/team,Approved
+Yarn,@babel/helper-wrap-function,7.13.0,MIT,https://babel.dev/docs/en/next/babel-helper-wrap-function,Approved
+Yarn,@babel/helpers,7.17.2,MIT,https://babel.dev/docs/en/next/babel-helpers,Approved
 Yarn,@babel/highlight,7.18.6,MIT,https://babel.dev/docs/en/next/babel-highlight,Approved
+Yarn,@babel/parser,7.18.0,MIT,https://babel.dev/docs/en/next/babel-parser,Approved
+Yarn,@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining,7.13.12,MIT,https://babel.dev/docs/en/next/babel-plugin-bugfix-v8-spread-parameters-in-optional-chaining,Approved
+Yarn,@babel/plugin-proposal-async-generator-functions,7.14.2,MIT,https://babel.dev/docs/en/next/babel-plugin-proposal-async-generator-functions,Approved
+Yarn,@babel/plugin-proposal-class-properties,7.13.0,MIT,https://babel.dev/docs/en/next/babel-plugin-proposal-class-properties,Approved
+Yarn,@babel/plugin-proposal-class-static-block,7.13.11,MIT,https://babel.dev/docs/en/next/babel-plugin-proposal-class-static-block,Approved
+Yarn,@babel/plugin-proposal-decorators,7.14.2,MIT,https://babel.dev/docs/en/next/babel-plugin-proposal-decorators,Approved
+Yarn,@babel/plugin-proposal-dynamic-import,7.14.2,MIT,Unknown,Approved
+Yarn,@babel/plugin-proposal-export-default-from,7.12.1,MIT,Unknown,Approved
+Yarn,@babel/plugin-proposal-export-namespace-from,7.14.2,MIT,https://babel.dev/docs/en/next/babel-plugin-proposal-export-namespace-from,Approved
+Yarn,@babel/plugin-proposal-json-strings,7.14.2,MIT,https://babel.dev/docs/en/next/babel-plugin-proposal-json-strings,Approved
+Yarn,@babel/plugin-proposal-logical-assignment-operators,7.14.2,MIT,https://babel.dev/docs/en/next/babel-plugin-proposal-logical-assignment-operators,Approved
+Yarn,@babel/plugin-proposal-nullish-coalescing-operator,7.14.2,MIT,https://babel.dev/docs/en/next/babel-plugin-proposal-nullish-coalescing-operator,Approved
+Yarn,@babel/plugin-proposal-numeric-separator,7.14.2,MIT,https://babel.dev/docs/en/next/babel-plugin-proposal-numeric-separator,Approved
+Yarn,@babel/plugin-proposal-object-rest-spread,7.14.2,MIT,https://babel.dev/docs/en/next/babel-plugin-proposal-object-rest-spread,Approved
+Yarn,@babel/plugin-proposal-optional-catch-binding,7.14.2,MIT,https://babel.dev/docs/en/next/babel-plugin-proposal-optional-catch-binding,Approved
+Yarn,@babel/plugin-proposal-optional-chaining,7.14.2,MIT,https://babel.dev/docs/en/next/babel-plugin-proposal-optional-chaining,Approved
+Yarn,@babel/plugin-proposal-private-methods,7.13.0,MIT,https://babel.dev/docs/en/next/babel-plugin-proposal-private-methods,Approved
+Yarn,@babel/plugin-proposal-private-property-in-object,7.17.12,MIT,https://babel.dev/docs/en/next/babel-plugin-proposal-private-property-in-object,Approved
+Yarn,@babel/plugin-proposal-unicode-property-regex,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-proposal-unicode-property-regex,Approved
+Yarn,@babel/plugin-syntax-async-generators,7.8.4,MIT,Unknown,Approved
+Yarn,@babel/plugin-syntax-class-properties,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-syntax-class-properties,Approved
+Yarn,@babel/plugin-syntax-class-static-block,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-syntax-class-static-block,Approved
+Yarn,@babel/plugin-syntax-decorators,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-syntax-decorators,Approved
+Yarn,@babel/plugin-syntax-dynamic-import,7.8.3,MIT,Unknown,Approved
+Yarn,@babel/plugin-syntax-export-default-from,7.12.1,MIT,Unknown,Approved
+Yarn,@babel/plugin-syntax-export-namespace-from,7.8.3,MIT,Unknown,Approved
+Yarn,@babel/plugin-syntax-json-strings,7.8.3,MIT,Unknown,Approved
 Yarn,@babel/plugin-syntax-jsx,7.16.7,MIT,https://babel.dev/docs/en/next/babel-plugin-syntax-jsx,Approved
+Yarn,@babel/plugin-syntax-logical-assignment-operators,7.10.4,MIT,Unknown,Approved
+Yarn,@babel/plugin-syntax-nullish-coalescing-operator,7.8.3,MIT,Unknown,Approved
+Yarn,@babel/plugin-syntax-numeric-separator,7.10.4,MIT,Unknown,Approved
+Yarn,@babel/plugin-syntax-object-rest-spread,7.8.3,MIT,Unknown,Approved
+Yarn,@babel/plugin-syntax-optional-catch-binding,7.8.3,MIT,Unknown,Approved
+Yarn,@babel/plugin-syntax-optional-chaining,7.8.3,MIT,Unknown,Approved
+Yarn,@babel/plugin-syntax-private-property-in-object,7.14.5,MIT,https://babel.dev/docs/en/next/babel-plugin-syntax-private-property-in-object,Approved
+Yarn,@babel/plugin-syntax-top-level-await,7.14.5,MIT,https://babel.dev/docs/en/next/babel-plugin-syntax-top-level-await,Approved
+Yarn,@babel/plugin-syntax-typescript,7.17.12,MIT,https://babel.dev/docs/en/next/babel-plugin-syntax-typescript,Approved
+Yarn,@babel/plugin-transform-arrow-functions,7.13.0,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-arrow-functions,Approved
+Yarn,@babel/plugin-transform-async-to-generator,7.13.0,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-async-to-generator,Approved
+Yarn,@babel/plugin-transform-block-scoped-functions,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-block-scoped-functions,Approved
+Yarn,@babel/plugin-transform-block-scoping,7.14.2,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-block-scoping,Approved
+Yarn,@babel/plugin-transform-classes,7.14.2,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-classes,Approved
+Yarn,@babel/plugin-transform-computed-properties,7.13.0,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-computed-properties,Approved
+Yarn,@babel/plugin-transform-destructuring,7.13.17,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-destructuring,Approved
+Yarn,@babel/plugin-transform-dotall-regex,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-dotall-regex,Approved
+Yarn,@babel/plugin-transform-duplicate-keys,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-duplicate-keys,Approved
+Yarn,@babel/plugin-transform-exponentiation-operator,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-exponentiation-operator,Approved
+Yarn,@babel/plugin-transform-for-of,7.13.0,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-for-of,Approved
+Yarn,@babel/plugin-transform-function-name,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-function-name,Approved
+Yarn,@babel/plugin-transform-literals,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-literals,Approved
+Yarn,@babel/plugin-transform-member-expression-literals,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-member-expression-literals,Approved
+Yarn,@babel/plugin-transform-modules-amd,7.14.2,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-modules-amd,Approved
+Yarn,@babel/plugin-transform-modules-commonjs,7.14.0,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-modules-commonjs,Approved
+Yarn,@babel/plugin-transform-modules-systemjs,7.13.8,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-modules-systemjs,Approved
+Yarn,@babel/plugin-transform-modules-umd,7.14.0,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-modules-umd,Approved
+Yarn,@babel/plugin-transform-named-capturing-groups-regex,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-named-capturing-groups-regex,Approved
+Yarn,@babel/plugin-transform-new-target,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-new-target,Approved
+Yarn,@babel/plugin-transform-object-super,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-object-super,Approved
+Yarn,@babel/plugin-transform-parameters,7.14.2,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-parameters,Approved
+Yarn,@babel/plugin-transform-property-literals,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-property-literals,Approved
+Yarn,@babel/plugin-transform-react-display-name,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-react-display-name,Approved
+Yarn,@babel/plugin-transform-react-jsx,7.14.5,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-react-jsx,Approved
+Yarn,@babel/plugin-transform-react-jsx-development,7.12.17,MIT,Unknown,Approved
+Yarn,@babel/plugin-transform-react-pure-annotations,7.12.1,MIT,Unknown,Approved
+Yarn,@babel/plugin-transform-regenerator,7.13.15,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-regenerator,Approved
+Yarn,@babel/plugin-transform-reserved-words,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-reserved-words,Approved
+Yarn,@babel/plugin-transform-shorthand-properties,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-shorthand-properties,Approved
+Yarn,@babel/plugin-transform-spread,7.13.0,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-spread,Approved
+Yarn,@babel/plugin-transform-sticky-regex,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-sticky-regex,Approved
+Yarn,@babel/plugin-transform-template-literals,7.13.0,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-template-literals,Approved
+Yarn,@babel/plugin-transform-typeof-symbol,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-typeof-symbol,Approved
+Yarn,@babel/plugin-transform-typescript,7.18.4,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-typescript,Approved
+Yarn,@babel/plugin-transform-unicode-escapes,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-unicode-escapes,Approved
+Yarn,@babel/plugin-transform-unicode-regex,7.12.13,MIT,https://babel.dev/docs/en/next/babel-plugin-transform-unicode-regex,Approved
+Yarn,@babel/preset-env,7.14.2,MIT,https://babel.dev/docs/en/next/babel-preset-env,Approved
+Yarn,@babel/preset-modules,0.1.4,MIT,Unknown,Approved
+Yarn,@babel/preset-react,7.13.13,MIT,https://babel.dev/docs/en/next/babel-preset-react,Approved
+Yarn,@babel/preset-typescript,7.17.12,MIT,https://babel.dev/docs/en/next/babel-preset-typescript,Approved
+Yarn,@babel/register,7.12.1,MIT,Unknown,Approved
 Yarn,@babel/runtime,7.18.6,MIT,https://babel.dev/docs/en/next/babel-runtime,Approved
+Yarn,@babel/template,7.16.7,MIT,https://babel.dev/docs/en/next/babel-template,Approved
+Yarn,@babel/traverse,7.18.0,MIT,https://babel.dev/docs/en/next/babel-traverse,Approved
 Yarn,@babel/types,7.18.0,MIT,https://babel.dev/docs/en/next/babel-types,Approved
 Yarn,@codemirror/autocomplete,6.1.0,MIT,http://marijnhaverbeke.nl,Approved
 Yarn,@codemirror/commands,6.0.1,MIT,http://marijnhaverbeke.nl,Approved
@@ -52,6 +158,11 @@ Yarn,@graphql-tools/utils,8.6.5,MIT,Unknown,Approved
 Yarn,@graphql-tools/wrap,8.4.9,MIT,Unknown,Approved
 Yarn,@graphql-typed-document-node/core,3.1.0,MIT,Unknown,Approved
 Yarn,@iarna/toml,2.2.5,ISC,https://github.com/iarna/iarna-toml#readme,Approved
+Yarn,@jridgewell/gen-mapping,0.3.1,MIT,Unknown,Approved
+Yarn,@jridgewell/resolve-uri,3.0.5,MIT,Unknown,Approved
+Yarn,@jridgewell/set-array,1.1.1,MIT,Unknown,Approved
+Yarn,@jridgewell/sourcemap-codec,1.4.11,MIT,Unknown,Approved
+Yarn,@jridgewell/trace-mapping,0.3.13,MIT,Unknown,Approved
 Yarn,@juggle/resize-observer,3.3.1,Apache 2.0,https://juggle.studio/resize-observer/,Approved
 Yarn,@lezer/common,0.15.11,MIT,Unknown,Approved
 Yarn,@lezer/common,1.0.0,MIT,Unknown,Approved
@@ -156,15 +267,30 @@ Yarn,@sourcegraph/extension-api-classes,1.1.0,MIT,Unknown,Approved
 Yarn,@sourcegraph/extension-api-types,2.1.0,Apache 2.0,Unknown,Approved
 Yarn,@sourcegraph/http-client,0.0.1,Apache 2.0,Unknown,Approved
 Yarn,@sourcegraph/jetbrains,0.0.0,Apache 2.0,Unknown,Approved
-Yarn,@sourcegraph/observability,0.0.1,Apache 2.0,Unknown,Approved
+Yarn,@sourcegraph/observability-client,0.0.1,Apache 2.0,Unknown,Approved
+Yarn,@sourcegraph/observability-server,0.0.1,Apache 2.0,Unknown,Approved
 Yarn,@sourcegraph/search,0.0.1,Apache 2.0,Unknown,Approved
 Yarn,@sourcegraph/search-ui,0.0.1,Apache 2.0,Unknown,Approved
 Yarn,@sourcegraph/shared,1.0.0,Apache 2.0,Unknown,Approved
 Yarn,@sourcegraph/storybook,0.0.1,Apache 2.0,Unknown,Approved
 Yarn,@sourcegraph/template-parser,0.0.1,Apache 2.0,Unknown,Approved
-Yarn,@sourcegraph/vscode,2.2.7,Apache 2.0,Unknown,Approved
+Yarn,@sourcegraph/vscode,2.2.8,Apache 2.0,Unknown,Approved
 Yarn,@sourcegraph/web,1.10.1,Apache 2.0,Unknown,Approved
 Yarn,@sourcegraph/wildcard,0.0.1,Apache 2.0,Unknown,Approved
+Yarn,@storybook/addon-controls,6.5.9,MIT,https://github.com/storybookjs/storybook/tree/next/addons/controls,Approved
+Yarn,@storybook/addons,6.5.9,MIT,https://github.com/storybookjs/storybook/tree/main/lib/addons,Approved
+Yarn,@storybook/api,6.5.9,MIT,https://github.com/storybookjs/storybook/tree/main/lib/api,Approved
+Yarn,@storybook/channels,6.5.9,MIT,https://github.com/storybookjs/storybook/tree/main/lib/channels,Approved
+Yarn,@storybook/client-logger,6.5.9,MIT,https://github.com/storybookjs/storybook/tree/main/lib/client-logger,Approved
+Yarn,@storybook/components,6.5.9,MIT,https://github.com/storybookjs/storybook/tree/main/lib/components,Approved
+Yarn,@storybook/core-common,6.5.9,MIT,https://github.com/storybookjs/storybook/tree/main/lib/core,Approved
+Yarn,@storybook/core-events,6.5.9,MIT,https://github.com/storybookjs/storybook/tree/main/lib/core-events,Approved
+Yarn,@storybook/csf,0.0.2--canary.4566f4d.1,MIT,https://github.com/ComponentDriven/csf,Approved
+Yarn,@storybook/node-logger,6.5.9,MIT,https://github.com/storybookjs/storybook/tree/main/lib/node-logger,Approved
+Yarn,@storybook/router,6.5.9,MIT,https://github.com/storybookjs/storybook/tree/main/lib/router,Approved
+Yarn,@storybook/semver,7.3.2,ISC,Unknown,Approved
+Yarn,@storybook/store,6.5.9,MIT,https://github.com/storybookjs/storybook/tree/main/lib/store,Approved
+Yarn,@storybook/theming,6.5.9,MIT,https://github.com/storybookjs/storybook/tree/main/lib/theming,Approved
 Yarn,@stripe/react-stripe-js,1.8.0-0,MIT,https://www.stripe.com,Approved
 Yarn,@stripe/stripe-js,1.29.0,MIT,https://stripe.com/docs/js,Approved
 Yarn,@szmarczak/http-timer,4.0.5,MIT,https://github.com/szmarczak/http-timer#readme,Approved
@@ -183,19 +309,26 @@ Yarn,@types/estree,0.0.51,MIT,https://github.com/DefinitelyTyped/DefinitelyTyped
 Yarn,@types/filesystem,0.0.29,MIT,Unknown,Approved
 Yarn,@types/filewriter,0.0.28,MIT,Unknown,Approved
 Yarn,@types/har-format,1.2.4,MIT,Unknown,Approved
+Yarn,@types/hast,2.3.1,MIT,Unknown,Approved
 Yarn,@types/http-cache-semantics,4.0.0,MIT,Unknown,Approved
+Yarn,@types/is-function,1.0.0,MIT,Unknown,Approved
 Yarn,@types/json-schema,7.0.11,MIT,https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/json-schema,Approved
 Yarn,@types/keyv,3.1.1,MIT,Unknown,Approved
 Yarn,@types/lodash,4.14.182,MIT,https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash,Approved
 Yarn,@types/node,16.11.36,MIT,https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node,Approved
+Yarn,@types/npmlog,4.1.2,MIT,Unknown,Approved
 Yarn,@types/parse-json,4.0.0,MIT,Unknown,Approved
+Yarn,@types/pretty-hrtime,1.0.0,MIT,Unknown,Approved
 Yarn,@types/prop-types,15.5.6,MIT,Unknown,Approved
 Yarn,@types/q,1.5.5,MIT,https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/q,Approved
 Yarn,@types/react,17.0.43,MIT,https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react,Approved
 Yarn,@types/react,18.0.8,MIT,https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react,Approved
+Yarn,@types/react-syntax-highlighter,11.0.5,MIT,Unknown,Approved
 Yarn,@types/react-transition-group,4.4.4,MIT,https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-transition-group,Approved
 Yarn,@types/responselike,1.0.0,MIT,Unknown,Approved
 Yarn,@types/scheduler,0.16.2,MIT,https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/scheduler,Approved
+Yarn,@types/unist,2.0.3,MIT,Unknown,Approved
+Yarn,@types/webpack-env,1.16.0,MIT,Unknown,Approved
 Yarn,@types/websocket,1.0.5,MIT,https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/websocket,Approved
 Yarn,@types/ws,8.5.3,MIT,https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/ws,Approved
 Yarn,@visx/annotation,2.10.0,MIT,https://github.com/airbnb/visx#readme,Approved
@@ -237,6 +370,7 @@ Yarn,@xstate/fsm,1.4.0,MIT,https://github.com/davidkpiano/xstate/tree/master/pac
 Yarn,@xtuc/ieee754,1.2.0,New BSD,http://feross.org,Approved
 Yarn,@xtuc/long,4.2.2,Apache 2.0,Unknown,Approved
 Yarn,abort-controller,3.0.0,MIT,https://github.com/mysticatea/abort-controller#readme,Approved
+Yarn,accepts,1.3.7,MIT,Unknown,Approved
 Yarn,acorn,8.8.0,MIT,https://github.com/acornjs/acorn,Approved
 Yarn,acorn-import-assertions,1.8.0,MIT,Unknown,Approved
 Yarn,ajv,6.12.6,MIT,https://github.com/ajv-validator/ajv,Approved
@@ -245,22 +379,42 @@ Yarn,ajv-formats,2.1.1,MIT,https://github.com/ajv-validator/ajv-formats#readme,A
 Yarn,ajv-keywords,3.5.2,MIT,https://github.com/epoberezkin/ajv-keywords#readme,Approved
 Yarn,alphanum-sort,1.0.2,MIT,https://github.com/TrySound/alphanum-sort,Approved
 Yarn,ansi-regex,2.1.1,MIT,sindresorhus.com,Approved
+Yarn,ansi-regex,3.0.0,MIT,sindresorhus.com,Approved
+Yarn,ansi-regex,5.0.1,MIT,sindresorhus.com,Approved
 Yarn,ansi-styles,2.2.1,MIT,sindresorhus.com,Approved
 Yarn,ansi-styles,3.2.1,MIT,sindresorhus.com,Approved
+Yarn,ansi-styles,4.3.0,MIT,sindresorhus.com,Approved
+Yarn,anymatch,3.1.2,ISC,https://github.com/micromatch/anymatch,Approved
 Yarn,apollo3-cache-persist,0.12.1,MIT,https://github.com/apollographql/apollo-cache-persist#readme,Approved
+Yarn,app-root-dir,1.0.2,MIT,https://github.com/philidem/node-app-root-dir,Approved
+Yarn,aproba,1.2.0,ISC,https://github.com/iarna/aproba,Approved
+Yarn,are-we-there-yet,2.0.0,ISC,https://github.com/npm/are-we-there-yet,Approved
 Yarn,arg,4.1.0,MIT,Unknown,Approved
 Yarn,argparse,1.0.10,MIT,Unknown,Approved
 Yarn,argparse,2.0.1,Python-2.0,Unknown,Approved
+Yarn,array-flatten,1.1.1,MIT,https://github.com/blakeembrey/array-flatten,Approved
 Yarn,array-union,2.1.0,MIT,sindresorhus.com,Approved
 Yarn,array.prototype.reduce,1.0.4,MIT,https://github.com/es-shims/Array.prototype.reduce#readme,Approved
 Yarn,assert-plus,1.0.0,MIT,Unknown,Approved
+Yarn,at-least-node,1.0.0,ISC,https://github.com/RyanZim/at-least-node#readme,Approved
+Yarn,babel-loader,8.2.5,MIT,https://github.com/babel/babel-loader,Approved
+Yarn,babel-plugin-dynamic-import-node,2.3.3,MIT,https://github.com/airbnb/babel-plugin-dynamic-import-node#readme,Approved
 Yarn,babel-plugin-macros,2.8.0,MIT,https://github.com/kentcdodds/babel-plugin-macros#readme,Approved
+Yarn,babel-plugin-macros,3.0.1,MIT,https://github.com/kentcdodds/babel-plugin-macros#readme,Approved
+Yarn,babel-plugin-polyfill-corejs2,0.2.0,MIT,Unknown,Approved
+Yarn,babel-plugin-polyfill-corejs3,0.1.7,MIT,Unknown,Approved
+Yarn,babel-plugin-polyfill-corejs3,0.2.0,MIT,Unknown,Approved
+Yarn,babel-plugin-polyfill-regenerator,0.2.0,MIT,Unknown,Approved
 Yarn,backo2,1.0.2,MIT,Unknown,Approved
 Yarn,balanced-match,0.4.2,MIT,https://github.com/juliangruber/balanced-match,Approved
 Yarn,balanced-match,1.0.0,MIT,https://github.com/juliangruber/balanced-match,Approved
 Yarn,base64-js,1.5.1,MIT,https://github.com/beatgammit/base64-js,Approved
+Yarn,big.js,5.2.2,MIT,Unknown,Approved
+Yarn,binary-extensions,2.0.0,MIT,sindresorhus.com,Approved
 Go,bitbucket.org/creachadair/shell,v0.0.7,New BSD,"",Approved
 Yarn,bloomfilter,0.0.18,New BSD,https://github.com/jasondavies/bloomfilter.js,Approved
+Yarn,bluebird,3.7.2,MIT,https://github.com/petkaantonov/bluebird,Approved
+Yarn,body-parser,1.19.0,MIT,Unknown,Approved
 Yarn,boolbase,1.0.0,ISC,https://github.com/fb55/boolbase,Approved
 Yarn,bootstrap,4.5.2,MIT,https://getbootstrap.com/,Approved
 Yarn,brace-expansion,1.1.11,MIT,https://github.com/juliangruber/brace-expansion,Approved
@@ -269,6 +423,7 @@ Yarn,browserslist,4.21.3,MIT,Unknown,Approved
 Yarn,buffer,5.7.1,MIT,https://github.com/feross/buffer,Approved
 Yarn,buffer-from,1.1.1,MIT,Unknown,Approved
 Yarn,builtin-status-codes,3.0.0,MIT,bendrucker.me,Approved
+Yarn,bytes,3.1.0,MIT,http://tjholowaychuk.com,Approved
 Yarn,cacheable-lookup,5.0.3,MIT,https://github.com/szmarczak/cacheable-lookup#readme,Approved
 Yarn,cacheable-request,7.0.2,MIT,http://lukechilds.co.uk,Approved
 Yarn,call-bind,1.0.2,MIT,https://github.com/ljharb/call-bind#readme,Approved
@@ -280,6 +435,11 @@ Yarn,caniuse-api,3.0.0,MIT,Unknown,Approved
 Yarn,caniuse-lite,1.0.30001374,CC-BY-4.0,http://beneb.info,Approved
 Yarn,chalk,1.1.3,MIT,Unknown,Approved
 Yarn,chalk,2.4.2,MIT,Unknown,Approved
+Yarn,chalk,4.1.2,MIT,Unknown,Approved
+Yarn,character-entities,1.2.2,MIT,http://wooorm.com,Approved
+Yarn,character-entities-legacy,1.1.2,MIT,http://wooorm.com,Approved
+Yarn,character-reference-invalid,1.1.2,MIT,http://wooorm.com,Approved
+Yarn,chokidar,3.5.1,MIT,https://github.com/paulmillr/chokidar,Approved
 Yarn,chrome-trace-event,1.0.2,MIT,Unknown,Approved
 Yarn,classnames,2.3.1,MIT,Unknown,Approved
 Yarn,clone-response,1.0.2,MIT,https://github.com/lukechilds/clone-response,Approved
@@ -297,17 +457,27 @@ Yarn,codemirror,5.65.2,MIT,https://codemirror.net/,Approved
 Yarn,codemirror-graphql,1.2.14,MIT,https://github.com/graphql/graphiql/tree/main/packages/codemirror-graphql#readme,Approved
 Yarn,color,3.2.1,MIT,Unknown,Approved
 Yarn,color-convert,1.9.3,MIT,Unknown,Approved
+Yarn,color-convert,2.0.1,MIT,Unknown,Approved
 Yarn,color-name,1.1.3,MIT,https://github.com/dfcreative/color-name,Approved
 Yarn,color-name,1.1.4,MIT,https://github.com/colorjs/color-name,Approved
 Yarn,color-string,1.9.1,MIT,Unknown,Approved
+Yarn,color-support,1.1.3,ISC,http://blog.izs.me/,Approved
 Yarn,comlink,4.3.0,Apache 2.0,Unknown,Approved
+Yarn,comma-separated-tokens,1.0.5,MIT,http://wooorm.com,Approved
 Yarn,commander,2.20.3,MIT,Unknown,Approved
+Yarn,commondir,1.0.1,MIT,http://substack.net,Approved
 Yarn,compute-scroll-into-view,1.0.17,MIT,https://scroll-into-view-if-needed.netlify.com/,Approved
 Yarn,concat-map,0.0.1,MIT,http://substack.net,Approved
+Yarn,console-control-strings,1.1.0,ISC,http://re-becca.org/,Approved
+Yarn,content-disposition,0.5.3,MIT,Unknown,Approved
+Yarn,content-type,1.0.4,MIT,Unknown,Approved
 Yarn,convert-source-map,1.7.0,MIT,https://github.com/thlorenz/convert-source-map,Approved
+Yarn,cookie,0.4.0,MIT,Unknown,Approved
+Yarn,cookie-signature,1.0.6,MIT,Unknown,Approved
 Yarn,copy-to-clipboard,3.3.1,MIT,Unknown,Approved
 Yarn,core-js,2.6.11,MIT,Unknown,Approved
 Yarn,core-js,3.22.8,MIT,Unknown,Approved
+Yarn,core-js-compat,3.11.0,MIT,Unknown,Approved
 Yarn,core-util-is,1.0.2,MIT,http://blog.izs.me/,Approved
 Yarn,cosmiconfig,5.2.1,MIT,https://github.com/davidtheclark/cosmiconfig#readme,Approved
 Yarn,cosmiconfig,6.0.0,MIT,https://github.com/davidtheclark/cosmiconfig#readme,Approved
@@ -356,6 +526,7 @@ Yarn,d3-voronoi,1.1.4,New BSD,https://d3js.org/d3-voronoi/,Approved
 Yarn,dataloader,2.0.0,MIT,https://github.com/graphql/dataloader,Approved
 Yarn,date-fns,2.16.1,MIT,Unknown,Approved
 Yarn,debounce,1.2.1,MIT,Unknown,Approved
+Yarn,debug,2.6.9,MIT,Unknown,Approved
 Yarn,debug,4.3.4,MIT,Unknown,Approved
 Yarn,decimal.js-light,2.5.0,MIT,Unknown,Approved
 Yarn,decompress-response,6.0.0,MIT,https://sindresorhus.com,Approved
@@ -364,7 +535,10 @@ Yarn,deepmerge,4.2.2,MIT,https://github.com/TehShrike/deepmerge,Approved
 Yarn,defer-to-connect,2.0.1,MIT,https://github.com/szmarczak/defer-to-connect#readme,Approved
 Yarn,define-properties,1.1.4,MIT,Unknown,Approved
 Yarn,delay,4.4.1,MIT,https://sindresorhus.com,Approved
+Yarn,delegates,1.0.0,MIT,Unknown,Approved
+Yarn,depd,1.1.2,MIT,Unknown,Approved
 Yarn,dequal,2.0.2,MIT,https://lukeed.com,Approved
+Yarn,destroy,1.0.4,MIT,http://jongleberry.com,Approved
 Yarn,detect-node-es,1.1.0,MIT,https://github.com/thekashey/detect-node,Approved
 Yarn,diff,4.0.2,New BSD,Unknown,Approved
 Yarn,dir-glob,3.0.1,MIT,github.com/kevva,Approved
@@ -373,15 +547,22 @@ Yarn,dom-helpers,3.4.0,MIT,Unknown,Approved
 Yarn,dom-helpers,5.2.0,MIT,Unknown,Approved
 Yarn,dom-serializer,0.2.2,MIT,Unknown,Approved
 Yarn,dom-serializer,1.3.2,MIT,Unknown,Approved
+Yarn,dom-walk,0.1.1,MIT,https://github.com/Raynos/dom-walk,Approved
 Yarn,domelementtype,1.3.1,Simplified BSD,Unknown,Approved
 Yarn,domelementtype,2.3.0,Simplified BSD,Unknown,Approved
 Yarn,domhandler,4.2.0,Simplified BSD,Unknown,Approved
 Yarn,domutils,1.7.0,Simplified BSD,Unknown,Approved
 Yarn,domutils,2.8.0,Simplified BSD,Unknown,Approved
 Yarn,dot-prop,5.2.0,MIT,sindresorhus.com,Approved
+Yarn,dotenv,8.2.0,Simplified BSD,Unknown,Approved
+Yarn,dotenv-expand,5.1.0,Simplified BSD,Unknown,Approved
 Yarn,downshift,3.4.8,MIT,https://github.com/downshift-js/downshift#readme,Approved
 Yarn,dset,3.1.1,MIT,https://lukeed.com,Approved
+Yarn,ee-first,1.1.1,MIT,http://jongleberry.com,Approved
 Yarn,electron-to-chromium,1.4.211,ISC,Unknown,Approved
+Yarn,emoji-regex,8.0.0,MIT,https://mths.be/emoji-regex,Approved
+Yarn,emojis-list,3.0.0,MIT,https://nidecoc.io/Kikobeats/emojis-list,Approved
+Yarn,encodeurl,1.0.2,MIT,Unknown,Approved
 Yarn,end-of-stream,1.4.4,MIT,https://github.com/mafintosh/end-of-stream,Approved
 Yarn,enhanced-resolve,5.10.0,MIT,http://github.com/webpack/enhanced-resolve,Approved
 Yarn,entities,2.1.0,Simplified BSD,Unknown,Approved
@@ -399,27 +580,48 @@ Yarn,esprima,4.0.1,Simplified BSD,http://esprima.org/,Approved
 Yarn,esrecurse,4.3.0,Simplified BSD,https://github.com/estools/esrecurse,Approved
 Yarn,estraverse,4.3.0,Simplified BSD,https://github.com/estools/estraverse,Approved
 Yarn,estraverse,5.2.0,Simplified BSD,https://github.com/estools/estraverse,Approved
+Yarn,esutils,2.0.3,Simplified BSD,https://github.com/estools/esutils,Approved
+Yarn,etag,1.8.1,MIT,Unknown,Approved
 Yarn,event-target-shim,5.0.1,MIT,https://github.com/mysticatea/event-target-shim,Approved
 Yarn,eventemitter3,3.1.2,MIT,Unknown,Approved
 Yarn,events,3.3.0,MIT,http://jeditoolkit.com,Approved
 Yarn,eventsource,1.1.1,MIT,http://github.com/EventSource/eventsource,Approved
 Yarn,exenv-es6,1.0.0,MIT,https://github.com/chrisdholt/exenv-es6#readme,Approved
+Yarn,express,4.17.1,MIT,http://expressjs.com/,Approved
 Yarn,extract-files,11.0.0,MIT,https://github.com/jaydenseric/extract-files#readme,Approved
 Yarn,extsprintf,1.3.0,MIT,Unknown,Approved
 Yarn,fast-deep-equal,3.1.3,MIT,https://github.com/epoberezkin/fast-deep-equal#readme,Approved
 Yarn,fast-glob,3.2.11,MIT,https://mrmlnc.com,Approved
 Yarn,fast-json-stable-stringify,2.1.0,MIT,https://github.com/epoberezkin/fast-json-stable-stringify,Approved
 Yarn,fastq,1.6.0,ISC,https://github.com/mcollina/fastq#readme,Approved
+Yarn,fault,1.0.4,MIT,https://wooorm.com,Approved
+Yarn,file-system-cache,1.0.5,MIT,https://github.com/philcockfield/file-system-cache,Approved
 Yarn,fill-range,7.0.1,MIT,https://github.com/jonschlinkert/fill-range,Approved
+Yarn,finalhandler,1.1.2,MIT,Unknown,Approved
+Yarn,find-cache-dir,2.1.0,MIT,Unknown,Approved
+Yarn,find-cache-dir,3.3.1,MIT,Unknown,Approved
 Yarn,find-root,1.1.0,MIT,Unknown,Approved
+Yarn,find-up,3.0.0,MIT,sindresorhus.com,Approved
+Yarn,find-up,4.1.0,MIT,sindresorhus.com,Approved
+Yarn,find-up,5.0.0,MIT,https://sindresorhus.com,Approved
 Yarn,focus-lock,0.10.1,MIT,https://github.com/theKashey/focus-lock#readme,Approved
 Yarn,focus-visible,5.2.0,W3C,https://github.com/WICG/focus-visible,Approved
+Yarn,fork-ts-checker-webpack-plugin,6.2.4,MIT,Unknown,Approved
 Yarn,form-data-encoder,1.7.1,MIT,Unknown,Approved
+Yarn,format,0.2.2,MIT,http://samhuri.net/proj/format,Approved
 Yarn,formdata-node,4.3.2,MIT,Unknown,Approved
+Yarn,forwarded,0.1.2,MIT,Unknown,Approved
+Yarn,fresh,0.5.2,MIT,http://tjholowaychuk.com,Approved
+Yarn,fs-extra,0.30.0,MIT,https://github.com/jprichardson/node-fs-extra,Approved
+Yarn,fs-extra,9.0.1,MIT,https://github.com/jprichardson/node-fs-extra,Approved
+Yarn,fs-monkey,1.0.3,Unlicense,Unknown,Approved
+Yarn,fs.realpath,1.0.0,ISC,http://blog.izs.me/,Approved
 Yarn,function-bind,1.1.1,MIT,https://github.com/Raynos/function-bind,Approved
 Yarn,function.prototype.name,1.1.5,MIT,Unknown,Approved
 Yarn,functions-have-names,1.2.3,MIT,https://github.com/inspect-js/functions-have-names#readme,Approved
 Yarn,fzy.js,0.4.1,MIT,http://github.com/jhawthorn/fzy.js,Approved
+Yarn,gauge,3.0.2,ISC,https://github.com/npm/gauge,Approved
+Yarn,gensync,1.0.0-beta.2,MIT,https://github.com/loganfsmyth/gensync,Approved
 Yarn,get-intrinsic,1.1.1,MIT,https://github.com/ljharb/get-intrinsic#readme,Approved
 Yarn,get-nonce,1.0.1,MIT,https://github.com/theKashey/get-nonce,Approved
 Yarn,get-stream,5.1.0,MIT,sindresorhus.com,Approved
@@ -524,6 +726,7 @@ Go,github.com/go-redsync/redsync,v1.4.2,New BSD,"",Approved
 Go,github.com/go-stack/stack,v1.8.1,MIT,"",Approved
 Go,github.com/gobwas/glob,v0.2.3,MIT,"",Approved
 Go,github.com/godbus/dbus/v5,v5.0.6,Simplified BSD,"",Approved
+Go,github.com/gofrs/uuid,v4.2.0,MIT,"",Approved
 Go,github.com/gogo/protobuf,v1.3.2,New BSD,"",Approved
 Go,github.com/golang-jwt/jwt/v4,v4.2.0,MIT,"",Approved
 Go,github.com/golang/gddo,v0.0.0-20210115222349-20d68f94ee1f,New BSD,"",Approved
@@ -558,7 +761,7 @@ Go,github.com/gosimple/slug,v1.12.0,Mozilla Public License 2.0,"",Approved
 Go,github.com/gosimple/unidecode,v1.0.1,Apache 2.0,"",Approved
 Go,github.com/goware/urlx,v0.3.1,MIT,"",Approved
 Go,github.com/grafana-tools/sdk,v0.0.0-20220203092117-edae16afa87b,Apache 2.0,"",Approved
-Go,github.com/grafana/regexp,v0.0.0-20220304095617-2e8d9baf4ac2,New BSD,"",Approved
+Go,github.com/grafana/regexp,v0.0.0-20220304100321-149c8afcd6cb,New BSD,"",Approved
 Go,github.com/graph-gophers/graphql-go,v1.3.0,Simplified BSD,"",Approved
 Go,github.com/graphql-go/graphql,v0.8.0,MIT,"",Approved
 Go,github.com/gregjones/httpcache,v0.0.0-20190611155906-901d90724c79,MIT,"",Approved
@@ -589,6 +792,7 @@ Go,github.com/josharian/intern,v1.0.0,MIT,"",Approved
 Go,github.com/jpillora/backoff,v1.0.0,MIT,"",Approved
 Go,github.com/json-iterator/go,v1.1.12,MIT,"",Approved
 Go,github.com/karlseguin/typed,v1.1.8,MIT,"",Approved
+Go,github.com/kballard/go-shellquote,v0.0.0-20180428030007-95032a82bc51,MIT,"",Approved
 Go,github.com/keegancsmith/rpc,v1.3.0,New BSD,"",Approved
 Go,github.com/keegancsmith/sqlf,v1.1.1,MIT,"",Approved
 Go,github.com/keegancsmith/tmpfriend,v0.0.0-20180423180255-86e88902a513,MIT,"",Approved
@@ -685,7 +889,7 @@ Go,github.com/sourcegraph/run,v0.9.0,Apache 2.0,"",Approved
 Go,github.com/sourcegraph/scip,v0.1.0,Apache 2.0,"",Approved
 Go,github.com/sourcegraph/syntaxhighlight,v0.0.0-20170531221838-bd320f5d308e,New BSD,"",Approved
 Go,github.com/sourcegraph/yaml,v1.0.1-0.20200714132230-56936252f152,MIT,"",Approved
-Go,github.com/sourcegraph/zoekt,v0.0.0-20220719111241-09ac1ff91e8c,Apache 2.0,"",Approved
+Go,github.com/sourcegraph/zoekt,v0.0.0-20220816140334-c9182fcd2a2e,Apache 2.0,"",Approved
 Go,github.com/stretchr/testify,v1.8.0,MIT,"",Approved
 Go,github.com/stripe/stripe-go,v70.15.0,MIT,"",Approved
 Go,github.com/throttled/throttled/v2,v2.9.0,New BSD,"",Approved
@@ -709,8 +913,11 @@ Go,github.com/xlab/treeprint,v1.1.0,MIT,"",Approved
 Go,github.com/yuin/goldmark,v1.4.4,MIT,"",Approved
 Go,github.com/yuin/goldmark-emoji,v1.0.1,MIT,"",Approved
 Go,github.com/yuin/gopher-lua,v0.0.0-20210529063254-f4c35e4016d9,MIT,"",Approved
+Yarn,glob,7.1.6,ISC,http://blog.izs.me/,Approved
 Yarn,glob-parent,5.1.2,ISC,https://gulpjs.com/,Approved
 Yarn,glob-to-regexp,0.4.1,Simplified BSD,Unknown,Approved
+Yarn,global,4.4.0,MIT,https://github.com/Raynos/global,Approved
+Yarn,globals,11.12.0,MIT,sindresorhus.com,Approved
 Yarn,globby,11.1.0,MIT,https://sindresorhus.com,Approved
 Go,go.etcd.io/bbolt,v1.3.6,MIT,"",Approved
 Go,go.mongodb.org/mongo-driver,v1.8.3,Apache 2.0,"",Approved
@@ -768,6 +975,7 @@ Yarn,graphql-sse,1.1.0,MIT,https://github.com/enisdenjo/graphql-sse#readme,Appro
 Yarn,graphql-tag,2.12.5,MIT,https://github.com/apollographql/graphql-tag#readme,Approved
 Yarn,graphql-ws,5.6.4,MIT,https://github.com/enisdenjo/graphql-ws#readme,Approved
 Yarn,gud,1.0.0,MIT,Unknown,Approved
+Yarn,handlebars,4.7.7,MIT,http://www.handlebarsjs.com/,Approved
 Yarn,has,1.0.3,MIT,https://github.com/tarruda/has,Approved
 Yarn,has-ansi,2.0.0,MIT,sindresorhus.com,Approved
 Yarn,has-bigints,1.0.2,MIT,https://github.com/ljharb/has-bigints#readme,Approved
@@ -777,6 +985,9 @@ Yarn,has-flag,4.0.0,MIT,sindresorhus.com,Approved
 Yarn,has-property-descriptors,1.0.0,MIT,https://github.com/inspect-js/has-property-descriptors#readme,Approved
 Yarn,has-symbols,1.0.3,MIT,https://github.com/ljharb/has-symbols#readme,Approved
 Yarn,has-tostringtag,1.0.0,MIT,https://github.com/inspect-js/has-tostringtag#readme,Approved
+Yarn,has-unicode,2.0.1,ISC,https://github.com/iarna/has-unicode,Approved
+Yarn,hast-util-parse-selector,2.2.5,MIT,https://wooorm.com,Approved
+Yarn,hastscript,6.0.0,MIT,https://wooorm.com,Approved
 Yarn,hex-color-regex,1.1.0,MIT,http://www.tunnckocore.tk,Approved
 Yarn,highlight.js,10.7.3,New BSD,https://highlightjs.org/,Approved
 Yarn,highlightjs-graphql,1.0.2,MIT,https://github.com/dpeek/highlightjs-graphql#readme,Approved
@@ -786,32 +997,47 @@ Yarn,hsl-regex,1.0.0,MIT,https://github.com/regexps/hsl-regex,Approved
 Yarn,hsla-regex,1.0.0,MIT,https://github.com/regexps/hsla-regex,Approved
 Yarn,htmlparser2,6.1.0,MIT,Unknown,Approved
 Yarn,http-cache-semantics,4.0.3,Simplified BSD,https://kornel.ski/,Approved
+Yarn,http-errors,1.7.2,MIT,http://jongleberry.com,Approved
+Yarn,http-errors,1.7.3,MIT,http://jongleberry.com,Approved
 Yarn,http-status-codes,2.1.4,MIT,Unknown,Approved
 Yarn,http2-wrapper,1.0.0-beta.5.2,MIT,https://github.com/szmarczak/http2-wrapper#readme,Approved
 Yarn,https-browserify,1.0.0,MIT,https://github.com/substack/https-browserify,Approved
+Yarn,iconv-lite,0.4.24,MIT,https://github.com/ashtuchkin/iconv-lite,Approved
 Yarn,ieee754,1.2.1,New BSD,https://feross.org,Approved
 Yarn,ignore,5.2.0,MIT,Unknown,Approved
 Yarn,import-fresh,2.0.0,MIT,sindresorhus.com,Approved
 Yarn,import-fresh,3.3.0,MIT,https://sindresorhus.com,Approved
 Yarn,indexes-of,1.0.1,MIT,https://github.com/dominictarr/indexes-of,Approved
+Yarn,inflight,1.0.6,ISC,https://github.com/isaacs/inflight,Approved
+Yarn,inherits,2.0.3,ISC,Unknown,Approved
 Yarn,inherits,2.0.4,ISC,Unknown,Approved
 Yarn,internal-slot,1.0.3,MIT,https://github.com/ljharb/internal-slot#readme,Approved
 Yarn,internmap,1.0.1,ISC,https://github.com/mbostock/internmap/,Approved
+Yarn,interpret,2.2.0,MIT,http://gulpjs.com/,Approved
 Yarn,invariant,2.2.4,MIT,Unknown,Approved
+Yarn,ipaddr.js,1.9.1,MIT,Unknown,Approved
 Yarn,is-absolute-url,2.1.0,MIT,http://sindresorhus.com,Approved
 Yarn,is-absolute-url,3.0.3,MIT,sindresorhus.com,Approved
+Yarn,is-alphabetical,1.0.4,MIT,https://wooorm.com,Approved
+Yarn,is-alphanumerical,1.0.2,MIT,http://wooorm.com,Approved
 Yarn,is-arguments,1.1.0,MIT,https://github.com/inspect-js/is-arguments,Approved
 Yarn,is-arrayish,0.2.1,MIT,http://github.com/qix-,Approved
 Yarn,is-arrayish,0.3.2,MIT,http://github.com/qix-,Approved
 Yarn,is-bigint,1.0.1,MIT,https://github.com/ljharb/is-bigint#readme,Approved
+Yarn,is-binary-path,2.1.0,MIT,sindresorhus.com,Approved
 Yarn,is-boolean-object,1.1.0,MIT,Unknown,Approved
 Yarn,is-callable,1.2.4,MIT,http://ljharb.codes,Approved
 Yarn,is-color-stop,1.1.0,MIT,https://github.com/pigcan/is-color-stop#readme,Approved
 Yarn,is-core-module,2.8.1,MIT,https://github.com/inspect-js/is-core-module,Approved
 Yarn,is-date-object,1.0.2,MIT,Unknown,Approved
+Yarn,is-decimal,1.0.4,MIT,https://wooorm.com,Approved
 Yarn,is-directory,0.3.1,MIT,https://github.com/jonschlinkert/is-directory,Approved
 Yarn,is-extglob,2.1.1,MIT,https://github.com/jonschlinkert/is-extglob,Approved
+Yarn,is-fullwidth-code-point,2.0.0,MIT,sindresorhus.com,Approved
+Yarn,is-fullwidth-code-point,3.0.0,MIT,sindresorhus.com,Approved
+Yarn,is-function,1.0.2,MIT,https://github.com/grncdr/js-is-function,Approved
 Yarn,is-glob,4.0.3,MIT,https://github.com/micromatch/is-glob,Approved
+Yarn,is-hexadecimal,1.0.2,MIT,http://wooorm.com,Approved
 Yarn,is-negative-zero,2.0.2,MIT,https://github.com/inspect-js/is-negative-zero,Approved
 Yarn,is-number,7.0.0,MIT,https://github.com/jonschlinkert/is-number,Approved
 Yarn,is-number-object,1.0.4,MIT,Unknown,Approved
@@ -824,6 +1050,7 @@ Yarn,is-string,1.0.7,MIT,Unknown,Approved
 Yarn,is-symbol,1.0.3,MIT,Unknown,Approved
 Yarn,is-weakref,1.0.2,MIT,https://github.com/inspect-js/is-weakref#readme,Approved
 Yarn,isarray,0.0.1,MIT,https://github.com/juliangruber/isarray,Approved
+Yarn,isobject,4.0.0,MIT,https://github.com/jonschlinkert/isobject,Approved
 Yarn,isomorphic-ws,4.0.1,MIT,https://github.com/heineiuo/isomorphic-ws#readme,Approved
 Yarn,iterall,1.3.0,MIT,https://github.com/leebyron/iterall,Approved
 Yarn,iterare,1.2.1,ISC,Unknown,Approved
@@ -833,13 +1060,18 @@ Yarn,js-cookie,2.2.1,MIT,Unknown,Approved
 Yarn,js-tokens,4.0.0,MIT,Unknown,Approved
 Yarn,js-yaml,3.14.1,MIT,https://github.com/nodeca/js-yaml,Approved
 Yarn,js-yaml,4.1.0,MIT,Unknown,Approved
+Yarn,jsesc,0.5.0,MIT,http://mths.be/jsesc,Approved
+Yarn,jsesc,2.5.2,MIT,https://mths.be/jsesc,Approved
 Yarn,json-buffer,3.0.1,MIT,https://github.com/dominictarr/json-buffer,Approved
 Yarn,json-parse-better-errors,1.0.2,MIT,Unknown,Approved
 Yarn,json-parse-even-better-errors,2.3.1,MIT,Unknown,Approved
 Yarn,json-schema,0.4.0,(AFL-2.1 OR BSD-3-Clause),Unknown,Approved
 Yarn,json-schema-traverse,0.4.1,MIT,https://github.com/epoberezkin/json-schema-traverse#readme,Approved
 Yarn,json-schema-traverse,1.0.0,MIT,https://github.com/epoberezkin/json-schema-traverse#readme,Approved
+Yarn,json5,2.2.0,MIT,http://json5.org/,Approved
 Yarn,jsonc-parser,3.0.0,MIT,Unknown,Approved
+Yarn,jsonfile,2.4.0,MIT,Unknown,Approved
+Yarn,jsonfile,6.0.1,MIT,Unknown,Approved
 Yarn,jsprim,1.4.2,MIT,Unknown,Approved
 Go,k8s.io/api,v0.23.3,Apache 2.0,"",Approved
 Go,k8s.io/apimachinery,v0.23.3,"Apache 2.0,New BSD","",Approved
@@ -848,12 +1080,18 @@ Go,k8s.io/klog/v2,v2.40.1,Apache 2.0,"",Approved
 Go,k8s.io/kube-openapi,v0.0.0-20220124234850-424119656bbf,Apache 2.0,"",Approved
 Go,k8s.io/utils,v0.0.0-20220127004650-9b3446523e65,"Apache 2.0,New BSD","",Approved
 Yarn,keyv,4.0.0,MIT,https://github.com/lukechilds/keyv,Approved
+Yarn,klaw,1.3.1,MIT,https://github.com/jprichardson/node-klaw#readme,Approved
 Yarn,klona,2.0.4,MIT,https://lukeed.com,Approved
 Go,layeh.com/gopher-luar,v1.0.10,Mozilla Public License 2.0,"",Approved
+Yarn,lazy-universal-dotenv,3.0.1,Apache 2.0,https://github.com/storybooks/lazy-universal-dotenv#readme,Approved
 Yarn,lines-and-columns,1.1.6,MIT,https://github.com/eventualbuddha/lines-and-columns#readme,Approved
 Yarn,linguist-languages,7.14.0,MIT,https://github.com/ikatyang/linguist-languages#readme,Approved
 Yarn,linkify-it,3.0.3,MIT,Unknown,Approved
 Yarn,loader-runner,4.2.0,MIT,https://github.com/webpack/loader-runner#readme,Approved
+Yarn,loader-utils,2.0.0,MIT,Unknown,Approved
+Yarn,locate-path,3.0.0,MIT,sindresorhus.com,Approved
+Yarn,locate-path,5.0.0,MIT,sindresorhus.com,Approved
+Yarn,locate-path,6.0.0,MIT,https://sindresorhus.com,Approved
 Yarn,lodash,4.17.21,MIT,https://lodash.com/,Approved
 Yarn,lodash.debounce,4.0.8,MIT,https://lodash.com/,Approved
 Yarn,lodash.get,4.4.2,MIT,https://lodash.com/,Approved
@@ -864,9 +1102,13 @@ Yarn,lodash.throttle,4.1.1,MIT,https://lodash.com/,Approved
 Yarn,lodash.uniq,4.5.0,MIT,https://lodash.com/,Approved
 Yarn,loose-envify,1.4.0,MIT,https://github.com/zertosh/loose-envify,Approved
 Yarn,lowercase-keys,2.0.0,MIT,sindresorhus.com,Approved
+Yarn,lowlight,1.20.0,MIT,https://wooorm.com,Approved
 Yarn,lru-cache,6.0.0,ISC,Unknown,Approved
 Yarn,lru-cache,7.8.0,ISC,Unknown,Approved
+Yarn,make-dir,2.1.0,MIT,sindresorhus.com,Approved
+Yarn,make-dir,3.1.0,MIT,sindresorhus.com,Approved
 Yarn,make-error,1.3.6,ISC,https://github.com/JsCommunity/make-error,Approved
+Yarn,map-or-similar,1.5.0,MIT,https://github.com/thinkloop/map-or-similar#readme,Approved
 Yarn,markdown-it,12.3.2,MIT,Unknown,Approved
 Yarn,marked,4.0.16,MIT,https://marked.js.org/,Approved
 Yarn,math-expression-evaluator,1.2.17,MIT,https://github.com/redhivesoftware/math-expression-evaluator#readme,Approved
@@ -874,15 +1116,22 @@ Yarn,mdi-react,8.1.0,(MIT AND OFL-1.1),https://github.com/levrik/mdi-react,Appro
 Yarn,mdn-data,2.0.14,CC0-1.0,https://developer.mozilla.org/,Approved
 Yarn,mdn-data,2.0.4,CC0-1.0,https://developer.mozilla.org/,Approved
 Yarn,mdurl,1.0.1,MIT,Unknown,Approved
+Yarn,media-typer,0.3.0,MIT,Unknown,Approved
+Yarn,memfs,3.2.2,Unlicense,Unknown,Approved
 Yarn,memoize-one,5.0.4,MIT,Unknown,Approved
+Yarn,memoizerific,1.11.3,MIT,https://github.com/thinkloop/memoizerific#readme,Approved
+Yarn,merge-descriptors,1.0.1,MIT,http://jongleberry.com,Approved
 Yarn,merge-stream,2.0.0,MIT,Unknown,Approved
 Yarn,merge2,1.4.1,MIT,https://github.com/teambition/merge2,Approved
 Yarn,meros,1.2.0,MIT,https://marais.io,Approved
+Yarn,methods,1.1.2,MIT,Unknown,Approved
 Yarn,micromatch,4.0.4,MIT,https://github.com/micromatch/micromatch,Approved
+Yarn,mime,1.6.0,MIT,http://github.com/broofa,Approved
 Yarn,mime-db,1.52.0,MIT,Unknown,Approved
 Yarn,mime-types,2.1.35,MIT,Unknown,Approved
 Yarn,mimic-response,1.0.1,MIT,sindresorhus.com,Approved
 Yarn,mimic-response,3.1.0,MIT,https://sindresorhus.com,Approved
+Yarn,min-document,2.19.0,MIT,https://github.com/Raynos/min-document,Approved
 Yarn,mini-create-react-context,0.4.0,MIT,Unknown,Approved
 Yarn,minimatch,3.1.2,ISC,http://blog.izs.me,Approved
 Yarn,minimatch,4.2.1,ISC,http://blog.izs.me,Approved
@@ -891,16 +1140,21 @@ Yarn,mkdirp,0.5.5,MIT,http://substack.net,Approved
 Yarn,module-details-from-path,1.0.3,MIT,https://github.com/watson/module-details-from-path#readme,Approved
 Yarn,monaco-editor,0.24.0,MIT,Unknown,Approved
 Yarn,monaco-yaml,3.2.1,MIT,https://monaco-yaml.js.org/,Approved
+Yarn,ms,2.0.0,MIT,Unknown,Approved
+Yarn,ms,2.1.1,MIT,Unknown,Approved
 Yarn,ms,2.1.2,MIT,Unknown,Approved
 Yarn,nanoid,3.3.4,MIT,Unknown,Approved
+Yarn,negotiator,0.6.2,MIT,Unknown,Approved
 Yarn,neo-async,2.6.2,MIT,https://github.com/suguru03/neo-async,Approved
 Yarn,nice-ticks,1.0.1,ISC,https://github.com/cenfun/nice-ticks#readme,Approved
 Yarn,node-domexception,1.0.0,MIT,https://github.com/jimmywarting/node-domexception#readme,Approved
 Yarn,node-fetch,2.6.7,MIT,https://github.com/bitinn/node-fetch,Approved
 Yarn,node-releases,2.0.6,MIT,Unknown,Approved
 Yarn,normalize-path,2.1.1,MIT,https://github.com/jonschlinkert/normalize-path,Approved
+Yarn,normalize-path,3.0.0,MIT,https://github.com/jonschlinkert/normalize-path,Approved
 Yarn,normalize-url,3.3.0,MIT,sindresorhus.com,Approved
 Yarn,normalize-url,6.1.0,MIT,https://sindresorhus.com,Approved
+Yarn,npmlog,5.0.1,ISC,http://blog.izs.me/,Approved
 Yarn,nth-check,1.0.2,Simplified BSD,https://github.com/fb55/nth-check,Approved
 Yarn,nullthrows,1.1.1,MIT,Unknown,Approved
 Yarn,object-assign,4.1.1,MIT,sindresorhus.com,Approved
@@ -910,25 +1164,42 @@ Yarn,object-keys,1.1.1,MIT,http://ljharb.codes,Approved
 Yarn,object.assign,4.1.2,MIT,Unknown,Approved
 Yarn,object.getownpropertydescriptors,2.1.4,MIT,Unknown,Approved
 Yarn,object.values,1.1.5,MIT,Unknown,Approved
+Yarn,on-finished,2.3.0,MIT,Unknown,Approved
 Yarn,once,1.4.0,ISC,http://blog.izs.me/,Approved
 Yarn,open-color,1.8.0,MIT,https://github.com/yeun/open-color,Approved
 Yarn,optimism,0.16.1,MIT,https://github.com/benjamn/optimism#readme,Approved
 Yarn,ordinal,1.0.3,MIT,https://github.com/dcousens/ordinal,Approved
 Yarn,original,1.0.2,MIT,Unknown,Approved
 Yarn,p-cancelable,2.0.0,MIT,sindresorhus.com,Approved
+Yarn,p-limit,2.3.0,MIT,sindresorhus.com,Approved
 Yarn,p-limit,3.1.0,MIT,https://sindresorhus.com,Approved
+Yarn,p-locate,3.0.0,MIT,sindresorhus.com,Approved
+Yarn,p-locate,4.1.0,MIT,sindresorhus.com,Approved
+Yarn,p-locate,5.0.0,MIT,https://sindresorhus.com,Approved
+Yarn,p-try,2.2.0,MIT,sindresorhus.com,Approved
 Yarn,parent-module,1.0.1,MIT,sindresorhus.com,Approved
+Yarn,parse-entities,2.0.0,MIT,https://wooorm.com,Approved
 Yarn,parse-json,4.0.0,MIT,sindresorhus.com,Approved
 Yarn,parse-json,5.2.0,MIT,https://sindresorhus.com,Approved
 Yarn,parse-srcset,1.0.2,MIT,https://github.com/albell/parse-srcset#readme,Approved
+Yarn,parseurl,1.3.3,MIT,Unknown,Approved
 Yarn,path-browserify,1.0.1,MIT,https://github.com/browserify/path-browserify,Approved
+Yarn,path-exists,3.0.0,MIT,sindresorhus.com,Approved
+Yarn,path-exists,4.0.0,MIT,sindresorhus.com,Approved
+Yarn,path-is-absolute,1.0.1,MIT,sindresorhus.com,Approved
 Yarn,path-parse,1.0.7,MIT,https://github.com/jbgutierrez/path-parse#readme,Approved
+Yarn,path-to-regexp,0.1.7,MIT,Unknown,Approved
 Yarn,path-to-regexp,1.7.0,MIT,Unknown,Approved
 Yarn,path-type,4.0.0,MIT,sindresorhus.com,Approved
 Yarn,performance-now,2.1.0,MIT,https://github.com/braveg1rl/performance-now,Approved
 Yarn,picocolors,0.2.1,ISC,Unknown,Approved
 Yarn,picocolors,1.0.0,ISC,Unknown,Approved
 Yarn,picomatch,2.3.1,MIT,https://github.com/micromatch/picomatch,Approved
+Yarn,pify,4.0.1,MIT,sindresorhus.com,Approved
+Yarn,pirates,4.0.5,MIT,https://github.com/danez/pirates#readme,Approved
+Yarn,pkg-dir,3.0.0,MIT,sindresorhus.com,Approved
+Yarn,pkg-dir,4.2.0,MIT,sindresorhus.com,Approved
+Yarn,pkg-dir,5.0.0,MIT,https://sindresorhus.com,Approved
 Yarn,popper.js,1.15.0,MIT,https://popper.js.org/,Approved
 Yarn,postcss,6.0.1,MIT,http://postcss.org/,Approved
 Yarn,postcss,7.0.39,MIT,https://postcss.org/,Approved
@@ -967,14 +1238,25 @@ Yarn,postcss-value-parser,3.3.1,MIT,https://github.com/TrySound/postcss-value-pa
 Yarn,postcss-value-parser,4.2.0,MIT,https://github.com/TrySound/postcss-value-parser,Approved
 Yarn,prettier,2.2.1,MIT,https://prettier.io/,Approved
 Yarn,pretty-bytes,5.3.0,MIT,sindresorhus.com,Approved
+Yarn,pretty-hrtime,1.0.3,MIT,https://github.com/robrich/pretty-hrtime,Approved
+Yarn,prismjs,1.27.0,MIT,Unknown,Approved
+Yarn,private,0.1.8,MIT,http://github.com/benjamn/private,Approved
+Yarn,process,0.11.10,MIT,Unknown,Approved
 Yarn,prop-types,15.7.2,MIT,https://facebook.github.io/react/,Approved
+Yarn,property-information,5.6.0,MIT,https://wooorm.com,Approved
+Yarn,proxy-addr,2.0.6,MIT,Unknown,Approved
 Yarn,pump,3.0.0,MIT,Unknown,Approved
 Yarn,punycode,2.1.1,MIT,https://mths.be/punycode,Approved
 Yarn,q,1.5.1,MIT,https://github.com/kriskowal/q,Approved
+Yarn,qs,6.11.0,New BSD,https://github.com/ljharb/qs,Approved
+Yarn,qs,6.7.0,New BSD,https://github.com/ljharb/qs,Approved
 Yarn,querystringify,2.2.0,MIT,https://github.com/unshiftio/querystringify,Approved
 Yarn,quick-lru,5.1.1,MIT,https://sindresorhus.com,Approved
 Yarn,raf,3.4.1,MIT,Unknown,Approved
+Yarn,ramda,0.21.0,MIT,http://ramdajs.com/,Approved
 Yarn,randombytes,2.1.0,MIT,https://github.com/crypto-browserify/randombytes,Approved
+Yarn,range-parser,1.2.1,MIT,http://tjholowaychuk.com,Approved
+Yarn,raw-body,2.4.0,MIT,http://jongleberry.com,Approved
 Yarn,react,18.1.0,MIT,https://reactjs.org/,Approved
 Yarn,react-circular-progressbar,2.0.3,MIT,Unknown,Approved
 Yarn,react-clientside-effect,1.2.5,MIT,https://github.com/thekashey/react-clientside-effect,Approved
@@ -1001,19 +1283,28 @@ Yarn,react-smooth,1.0.5,MIT,https://github.com/recharts/react-smooth#readme,Appr
 Yarn,react-spring,9.4.2,MIT,https://github.com/pmndrs/react-spring#readme,Approved
 Yarn,react-sticky-box,1.0.2,ISC,http://danielberndt.net/,Approved
 Yarn,react-style-singleton,2.1.0,MIT,https://github.com/theKashey/react-style-singleton#readme,Approved
+Yarn,react-syntax-highlighter,15.5.0,MIT,https://github.com/react-syntax-highlighter/react-syntax-highlighter#readme,Approved
 Yarn,react-transition-group,2.9.0,New BSD,https://github.com/reactjs/react-transition-group#readme,Approved
 Yarn,react-transition-group,4.4.1,New BSD,https://github.com/reactjs/react-transition-group#readme,Approved
 Yarn,react-use-measure,2.0.4,MIT,Unknown,Approved
 Yarn,react-visibility-sensor,5.1.1,MIT,Unknown,Approved
 Yarn,reactstrap,8.9.0,MIT,https://github.com/reactstrap/reactstrap#readme,Approved
 Yarn,readable-stream,3.6.0,MIT,Unknown,Approved
+Yarn,readdirp,3.5.0,MIT,https://github.com/paulmillr/readdirp,Approved
 Yarn,recharts,1.8.5,MIT,https://github.com/recharts/recharts,Approved
 Yarn,recharts-scale,0.4.2,MIT,https://github.com/recharts/recharts-scale,Approved
 Yarn,reduce-css-calc,1.3.0,MIT,Unknown,Approved
 Yarn,reduce-function-call,1.0.3,MIT,Unknown,Approved
+Yarn,refractor,3.6.0,MIT,https://wooorm.com,Approved
+Yarn,regenerate,1.4.0,MIT,https://mths.be/regenerate,Approved
+Yarn,regenerate-unicode-properties,8.2.0,MIT,https://github.com/mathiasbynens/regenerate-unicode-properties,Approved
 Yarn,regenerator-runtime,0.13.9,MIT,Unknown,Approved
+Yarn,regenerator-transform,0.14.2,MIT,Unknown,Approved
 Yarn,regexp.prototype.flags,1.4.3,MIT,Unknown,Approved
 Yarn,regexpp,3.2.0,MIT,https://github.com/mysticatea/regexpp#readme,Approved
+Yarn,regexpu-core,4.7.1,MIT,https://mths.be/regexpu,Approved
+Yarn,regjsgen,0.5.1,MIT,https://github.com/bnjmnt4n/regjsgen,Approved
+Yarn,regjsparser,0.6.4,Simplified BSD,https://github.com/jviereck/regjsparser,Approved
 Yarn,remove-trailing-separator,1.1.0,ISC,https://github.com/darsain/remove-trailing-separator#readme,Approved
 Yarn,require-from-string,2.0.2,MIT,github.com/floatdrop,Approved
 Yarn,require-in-the-middle,5.1.0,MIT,https://github.com/elastic/require-in-the-middle#readme,Approved
@@ -1029,17 +1320,28 @@ Yarn,responselike,2.0.0,MIT,Unknown,Approved
 Yarn,reusify,1.0.4,MIT,https://github.com/mcollina/reusify#readme,Approved
 Yarn,rgb-regex,1.0.1,MIT,https://github.com/regexps/rgb-regex,Approved
 Yarn,rgba-regex,1.0.0,MIT,https://github.com/johnotander/rgba-regex,Approved
+Yarn,rimraf,2.6.3,ISC,http://blog.izs.me/,Approved
 Yarn,run-parallel,1.1.9,MIT,https://github.com/feross/run-parallel,Approved
 Yarn,rxjs,6.6.3,Apache 2.0,https://github.com/ReactiveX/RxJS,Approved
 Yarn,safe-buffer,5.1.2,MIT,https://github.com/feross/safe-buffer,Approved
+Yarn,safer-buffer,2.1.2,MIT,https://github.com/ChALkeR,Approved
 Yarn,sanitize-html,2.3.3,MIT,Unknown,Approved
 Yarn,sax,1.2.4,ISC,http://blog.izs.me/,Approved
 Yarn,scheduler,0.22.0,MIT,https://reactjs.org/,Approved
+Yarn,schema-utils,2.7.0,MIT,https://github.com/webpack/schema-utils,Approved
 Yarn,schema-utils,3.1.0,MIT,https://github.com/webpack/schema-utils,Approved
+Yarn,semver,5.7.1,ISC,Unknown,Approved
+Yarn,semver,6.3.0,ISC,Unknown,Approved
+Yarn,semver,7.0.0,ISC,Unknown,Approved
 Yarn,semver,7.3.7,ISC,Unknown,Approved
+Yarn,send,0.17.1,MIT,Unknown,Approved
 Yarn,serialize-javascript,6.0.0,New BSD,https://github.com/yahoo/serialize-javascript,Approved
+Yarn,serve-static,1.14.1,MIT,Unknown,Approved
+Yarn,set-blocking,2.0.0,ISC,https://github.com/yargs/set-blocking#readme,Approved
+Yarn,setprototypeof,1.1.1,ISC,https://github.com/wesleytodd/setprototypeof,Approved
 Yarn,shimmer,1.2.1,Simplified BSD,Unknown,Approved
 Yarn,side-channel,1.0.4,MIT,https://github.com/ljharb/side-channel#readme,Approved
+Yarn,signal-exit,3.0.3,ISC,https://github.com/tapjs/signal-exit,Approved
 Go,sigs.k8s.io/json,v0.0.0-20211208200746-9f7c6b3444d2,Apache 2.0,"",Approved
 Go,sigs.k8s.io/kustomize/kyaml,v0.13.3,"Apache 2.0,MIT","",Approved
 Go,sigs.k8s.io/structured-merge-diff/v4,v4.2.1,Apache 2.0,"",Approved
@@ -1052,15 +1354,22 @@ Yarn,source-map,0.7.3,New BSD,https://github.com/mozilla/source-map,Approved
 Yarn,source-map-js,1.0.2,New BSD,https://github.com/7rulnik/source-map-js,Approved
 Yarn,source-map-support,0.5.21,MIT,Unknown,Approved
 Yarn,sourcegraph,25.6.0,Apache 2.0,https://github.com/sourcegraph/sourcegraph,Approved
+Yarn,space-separated-tokens,1.1.2,MIT,http://wooorm.com,Approved
 Yarn,sprintf-js,1.0.3,New BSD,http://alexei.ro/,Approved
 Yarn,stable,0.1.8,MIT,Unknown,Approved
+Yarn,statuses,1.5.0,MIT,Unknown,Approved
+Yarn,store2,2.12.0,(MIT OR GPL-3.0),http://www.esha.com/,Approved
 Yarn,stream-http,3.2.0,MIT,https://github.com/jhiesey/stream-http#readme,Approved
 Yarn,string-env-interpolation,1.0.1,MIT,Unknown,Approved
 Yarn,string-score,1.0.1,MIT,https://github.com/KenPowers/string-score,Approved
+Yarn,string-width,2.1.1,MIT,sindresorhus.com,Approved
+Yarn,string-width,4.2.3,MIT,sindresorhus.com,Approved
 Yarn,string.prototype.trimend,1.0.5,MIT,Unknown,Approved
 Yarn,string.prototype.trimstart,1.0.5,MIT,Unknown,Approved
 Yarn,string_decoder,1.1.1,MIT,https://github.com/nodejs/string_decoder,Approved
 Yarn,strip-ansi,3.0.1,MIT,sindresorhus.com,Approved
+Yarn,strip-ansi,4.0.0,MIT,sindresorhus.com,Approved
+Yarn,strip-ansi,6.0.1,MIT,sindresorhus.com,Approved
 Yarn,style-mod,4.0.0,MIT,Unknown,Approved
 Yarn,stylehacks,4.0.3,MIT,https://github.com/cssnano/cssnano,Approved
 Yarn,stylis,4.0.13,MIT,https://github.com/thysultan/stylis.js,Approved
@@ -1068,16 +1377,20 @@ Yarn,subscriptions-transport-ws,0.11.0,MIT,Unknown,Approved
 Yarn,supports-color,2.0.0,MIT,sindresorhus.com,Approved
 Yarn,supports-color,3.2.3,MIT,sindresorhus.com,Approved
 Yarn,supports-color,5.5.0,MIT,sindresorhus.com,Approved
+Yarn,supports-color,7.2.0,MIT,sindresorhus.com,Approved
 Yarn,supports-color,8.1.1,MIT,https://sindresorhus.com,Approved
 Yarn,supports-preserve-symlinks-flag,1.0.0,MIT,https://github.com/inspect-js/node-supports-preserve-symlinks-flag#readme,Approved
 Yarn,svgo,1.3.2,MIT,https://github.com/svg/svgo,Approved
 Yarn,symbol-observable,1.2.0,MIT,Unknown,Approved
 Yarn,symbol-observable,4.0.0,MIT,Unknown,Approved
 Yarn,sync-fetch,0.3.1,MIT,https://github.com/larsgw/sync-fetch#readme,Approved
+Yarn,synchronous-promise,2.0.15,New BSD,https://github.com/fluffynuts,Approved
 Yarn,tabbable,4.0.0,MIT,https://github.com/davidtheclark/tabbable#readme,Approved
 Yarn,tabbable,5.2.1,MIT,https://github.com/focus-trap/tabbable#readme,Approved
 Yarn,tagged-template-noop,2.1.1,MIT,https://github.com/lleaff/tagged-template-noop#readme,Approved
+Yarn,tapable,1.1.3,MIT,https://github.com/webpack/tapable,Approved
 Yarn,tapable,2.2.0,MIT,https://github.com/webpack/tapable,Approved
+Yarn,telejson,6.0.8,MIT,https://github.com/storybookjs/telejson,Approved
 Yarn,terser,5.7.1,Simplified BSD,https://terser.org/,Approved
 Yarn,terser-webpack-plugin,5.1.4,MIT,https://github.com/webpack-contrib/terser-webpack-plugin,Approved
 Yarn,textarea-caret,3.1.0,MIT,Unknown,Approved
@@ -1087,18 +1400,29 @@ Yarn,tiny-warning,1.0.3,MIT,Unknown,Approved
 Yarn,to-fast-properties,2.0.0,MIT,sindresorhus.com,Approved
 Yarn,to-regex-range,5.0.1,MIT,https://github.com/micromatch/to-regex-range,Approved
 Yarn,toggle-selection,1.0.6,MIT,sudodoki.name,Approved
+Yarn,toidentifier,1.0.0,MIT,Unknown,Approved
 Yarn,tr46,0.0.3,MIT,https://github.com/Sebmaster/tr46.js#readme,Approved
+Yarn,trim,0.0.1,MIT,Unknown,Approved
+Yarn,ts-dedent,2.0.0,MIT,Unknown,Approved
 Yarn,ts-invariant,0.9.4,MIT,https://github.com/apollographql/invariant-packages,Approved
 Yarn,ts-key-enum,2.0.8,MIT,https://gitlab.com/nfriend/ts-key-enum#readme,Approved
 Yarn,ts-node,9.1.1,MIT,https://github.com/TypeStrong/ts-node,Approved
 Yarn,tslib,2.1.0,BSD Zero Clause License,https://www.typescriptlang.org/,Approved
+Yarn,type-is,1.6.18,MIT,Unknown,Approved
 Yarn,typed-styles,0.0.7,MIT,Unknown,Approved
 Yarn,uc.micro,1.0.5,MIT,Unknown,Approved
+Yarn,uglify-js,3.14.2,Simplified BSD,http://lisperator.net/,Approved
 Yarn,unbox-primitive,1.0.2,MIT,https://github.com/ljharb/unbox-primitive#readme,Approved
 Yarn,undici,4.16.0,MIT,https://undici.nodejs.org/,Approved
+Yarn,unicode-canonical-property-names-ecmascript,1.0.4,MIT,https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript,Approved
+Yarn,unicode-match-property-ecmascript,1.0.4,MIT,https://github.com/mathiasbynens/unicode-match-property-ecmascript,Approved
+Yarn,unicode-match-property-value-ecmascript,1.2.0,MIT,https://github.com/mathiasbynens/unicode-match-property-value-ecmascript,Approved
+Yarn,unicode-property-aliases-ecmascript,1.0.4,MIT,https://github.com/mathiasbynens/unicode-property-aliases-ecmascript,Approved
 Yarn,uniq,1.0.1,MIT,Unknown,Approved
 Yarn,uniqs,2.0.0,MIT,Unknown,Approved
+Yarn,universalify,1.0.0,MIT,https://github.com/RyanZim/universalify#readme,Approved
 Yarn,unixify,1.0.0,MIT,https://github.com/jonschlinkert/unixify,Approved
+Yarn,unpipe,1.0.0,MIT,Unknown,Approved
 Yarn,unquote,1.1.1,MIT,https://github.com/lakenen/node-unquote,Approved
 Yarn,update-browserslist-db,1.0.5,MIT,Unknown,Approved
 Yarn,uri-js,4.4.1,Simplified BSD,https://github.com/garycourt/uri-js,Approved
@@ -1111,9 +1435,11 @@ Yarn,use-sidecar,1.0.5,MIT,https://github.com/theKashey/use-sidecar,Approved
 Yarn,util-deprecate,1.0.2,MIT,https://github.com/TooTallNate/util-deprecate,Approved
 Yarn,util.promisify,1.0.0,MIT,https://github.com/ljharb/util.promisify#readme,Approved
 Yarn,utility-types,3.10.0,MIT,https://github.com/piotrwitek/utility-types,Approved
+Yarn,utils-merge,1.0.1,MIT,http://www.jaredhanson.net/,Approved
 Yarn,uuid,8.3.2,MIT,Unknown,Approved
 Yarn,value-equal,0.2.1,MIT,Unknown,Approved
 Yarn,value-or-promise,1.0.11,MIT,Unknown,Approved
+Yarn,vary,1.1.2,MIT,Unknown,Approved
 Yarn,vendors,1.0.4,MIT,https://wooorm.com,Approved
 Yarn,verror,1.10.0,MIT,Unknown,Approved
 Yarn,vscode-languageserver-textdocument,1.0.2,MIT,Unknown,Approved
@@ -1132,6 +1458,8 @@ Yarn,webpack,5.74.0,MIT,https://github.com/webpack/webpack,Approved
 Yarn,webpack-sources,3.2.3,MIT,https://github.com/webpack/webpack-sources#readme,Approved
 Yarn,whatwg-url,5.0.0,MIT,Unknown,Approved
 Yarn,which-boxed-primitive,1.0.2,MIT,https://github.com/inspect-js/which-boxed-primitive#readme,Approved
+Yarn,wide-align,1.1.3,ISC,http://re-becca.org/,Approved
+Yarn,wordwrap,1.0.0,MIT,http://substack.net,Approved
 Yarn,wrappy,1.0.2,ISC,https://github.com/npm/wrappy,Approved
 Yarn,ws,7.4.6,MIT,https://github.com/websockets/ws,Approved
 Yarn,ws,8.8.0,MIT,https://github.com/websockets/ws,Approved
