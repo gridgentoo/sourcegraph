@@ -3,6 +3,8 @@ package dbstore
 import (
 	"fmt"
 
+	"github.com/prometheus/client_golang/prometheus"
+
 	"github.com/sourcegraph/sourcegraph/internal/metrics"
 	"github.com/sourcegraph/sourcegraph/internal/observation"
 )
@@ -42,7 +44,6 @@ type operations struct {
 	insertCloneableDependencyRepo               *observation.Operation
 	insertDependencyIndexingJob                 *observation.Operation
 	insertDependencySyncingJob                  *observation.Operation
-	insertIndex                                 *observation.Operation
 	insertUpload                                *observation.Operation
 	isQueued                                    *observation.Operation
 	languagesRequestedBy                        *observation.Operation
@@ -84,6 +85,9 @@ type operations struct {
 	persistNearestUploadsLinks *observation.Operation
 	persistUploadsVisibleAtTip *observation.Operation
 	writeVisibleUploads        *observation.Operation
+
+	insertIndex     *observation.Operation
+	indexesInserted prometheus.Counter
 }
 
 func newOperations(observationContext *observation.Context, metrics *metrics.REDMetrics) *operations {
@@ -107,30 +111,30 @@ func newOperations(observationContext *observation.Context, metrics *metrics.RED
 		})
 	}
 
+	indexesInsertedCounter := prometheus.NewCounter(prometheus.CounterOpts{
+		Name: "src_codeintel_dbstore_indexes_inserted",
+		Help: "The number of codeintel index records inserted.",
+	})
+	prometheus.MustRegister(indexesInsertedCounter)
+
 	return &operations{
-		addUploadPart:                        op("AddUploadPart"),
-		calculateVisibleUploads:              op("CalculateVisibleUploads"),
-		commitGraphMetadata:                  op("CommitGraphMetadata"),
-		commitsVisibleToUpload:               op("CommitsVisibleToUpload"),
-		createConfigurationPolicy:            op("CreateConfigurationPolicy"),
-		definitionDumps:                      op("DefinitionDumps"),
-		deleteConfigurationPolicyByID:        op("DeleteConfigurationPolicyByID"),
-		deleteIndexByID:                      op("DeleteIndexByID"),
-		deleteIndexesWithoutRepository:       op("DeleteIndexesWithoutRepository"),
-		deleteOverlappingDumps:               op("DeleteOverlappingDumps"),
-		deleteUploadByID:                     op("DeleteUploadByID"),
-		dequeue:                              op("Dequeue"),
-		dequeueIndex:                         op("DequeueIndex"),
-		dirtyRepositories:                    op("DirtyRepositories"),
-		findClosestDumps:                     op("FindClosestDumps"),
-		findClosestDumpsFromGraphFragment:    op("FindClosestDumpsFromGraphFragment"),
-		getConfigurationPolicies:             op("GetConfigurationPolicies"),
-		getConfigurationPolicyByID:           op("GetConfigurationPolicyByID"),
-		getDumpsByIDs:                        op("GetDumpsByIDs"),
-		getIndexByID:                         op("GetIndexByID"),
-		getIndexConfigurationByRepositoryID:  op("GetIndexConfigurationByRepositoryID"),
-		getIndexes:                           op("GetIndexes"),
-		getIndexesByIDs:                      op("GetIndexesByIDs"),
+		addUploadPart:                     op("AddUploadPart"),
+		calculateVisibleUploads:           op("CalculateVisibleUploads"),
+		commitGraphMetadata:               op("CommitGraphMetadata"),
+		commitsVisibleToUpload:            op("CommitsVisibleToUpload"),
+		createConfigurationPolicy:         op("CreateConfigurationPolicy"),
+		definitionDumps:                   op("DefinitionDumps"),
+		deleteConfigurationPolicyByID:     op("DeleteConfigurationPolicyByID"),
+		deleteOverlappingDumps:            op("DeleteOverlappingDumps"),
+		deleteUploadByID:                  op("DeleteUploadByID"),
+		dequeue:                           op("Dequeue"),
+		dirtyRepositories:                 op("DirtyRepositories"),
+		findClosestDumps:                  op("FindClosestDumps"),
+		findClosestDumpsFromGraphFragment: op("FindClosestDumpsFromGraphFragment"),
+		getConfigurationPolicies:          op("GetConfigurationPolicies"),
+		getConfigurationPolicyByID:        op("GetConfigurationPolicyByID"),
+		getDumpsByIDs:                     op("GetDumpsByIDs"),
+
 		getOldestCommitDate:                  op("GetOldestCommitDate"),
 		getUploadByID:                        op("GetUploadByID"),
 		getUploads:                           op("GetUploads"),
@@ -138,11 +142,9 @@ func newOperations(observationContext *observation.Context, metrics *metrics.RED
 		hardDeleteUploadByID:                 op("HardDeleteUploadByID"),
 		hasCommit:                            op("HasCommit"),
 		hasRepository:                        op("HasRepository"),
-		indexQueueSize:                       op("IndexQueueSize"),
 		insertCloneableDependencyRepo:        op("InsertCloneableDependencyRepo"),
 		insertDependencyIndexingJob:          op("InsertDependencyIndexingJob"),
 		insertDependencySyncingJob:           op("InsertDependencySyncingJob"),
-		insertIndex:                          op("InsertIndex"),
 		insertUpload:                         op("InsertUpload"),
 		isQueued:                             op("IsQueued"),
 		languagesRequestedBy:                 op("LanguagesRequestedBy"),
@@ -151,8 +153,6 @@ func newOperations(observationContext *observation.Context, metrics *metrics.RED
 		markComplete:                         op("MarkComplete"),
 		markErrored:                          op("MarkErrored"),
 		markFailed:                           op("MarkFailed"),
-		markIndexComplete:                    op("MarkIndexComplete"),
-		markIndexErrored:                     op("MarkIndexErrored"),
 		markQueued:                           op("MarkQueued"),
 		markRepositoryAsDirty:                op("MarkRepositoryAsDirty"),
 		maxStaleAge:                          op("MaxStaleAge"),
@@ -166,7 +166,6 @@ func newOperations(observationContext *observation.Context, metrics *metrics.RED
 		repoName:                             op("RepoName"),
 		requestLanguageSupport:               op("RequestLanguageSupport"),
 		requeue:                              op("Requeue"),
-		requeueIndex:                         op("RequeueIndex"),
 
 		selectPoliciesForRepositoryMembershipUpdate: op("selectPoliciesForRepositoryMembershipUpdate"),
 		selectRepositoriesForIndexScan:              op("SelectRepositoriesForIndexScan"),
@@ -186,5 +185,19 @@ func newOperations(observationContext *observation.Context, metrics *metrics.RED
 		persistNearestUploadsLinks: subOp("persistNearestUploadsLinks"),
 		persistUploadsVisibleAtTip: subOp("persistUploadsVisibleAtTip"),
 		writeVisibleUploads:        subOp("writeVisibleUploads"),
+
+		getIndexByID:                        op("GetIndexByID"),
+		getIndexConfigurationByRepositoryID: op("GetIndexConfigurationByRepositoryID"),
+		getIndexes:                          op("GetIndexes"),
+		getIndexesByIDs:                     op("GetIndexesByIDs"),
+		markIndexComplete:                   op("MarkIndexComplete"),
+		markIndexErrored:                    op("MarkIndexErrored"),
+		deleteIndexByID:                     op("DeleteIndexByID"),
+		deleteIndexesWithoutRepository:      op("DeleteIndexesWithoutRepository"),
+		dequeueIndex:                        op("DequeueIndex"),
+		insertIndex:                         op("InsertIndex"),
+		indexQueueSize:                      op("IndexQueueSize"),
+		requeueIndex:                        op("RequeueIndex"),
+		indexesInserted:                     indexesInsertedCounter,
 	}
 }

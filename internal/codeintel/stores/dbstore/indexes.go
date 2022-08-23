@@ -422,6 +422,8 @@ func (s *Store) InsertIndexes(ctx context.Context, indexes []Index) (_ []Index, 
 		return nil, err
 	}
 
+	s.operations.indexesInserted.Add(float64(len(ids)))
+
 	return tx.GetIndexesByIDs(ctx, ids...)
 }
 
