@@ -3,6 +3,29 @@
 [![build](https://badge.buildkite.com/00bbe6fa9986c78b8e8591cffeb0b0f2e8c4bb610d7e339ff6.svg?branch=master)](https://buildkite.com/sourcegraph/sourcegraph)
 [![apache license](https://img.shields.io/badge/license-Apache-blue.svg)](LICENSE)
 
+[Sourcegraph]  движок для навигации по исходным текстам  
+https://docs.google.com/document/d/1bP-_YpqcE_fYfeSfp8CaswHKhX8ksh6lK_PVdWssuec/edit 
+
+Код написан на языках Go и JavaScript (Node.js). Для хранения данных используется PostgreSQL, а для хранения сеансов Redis.   
+
+Поддерживается анализ кода на 19 языках и модули интеграции с GitHub.com, GitHub Enterprise, Bitbucket Server и Phabricator. Возможно подключение внешних серверных обработчиков для разбора семантики языка и статического анализа кода, поддерживающих протокол LSP (Language Server Protocol). Для интеграции со сторонними инструментами разработки предоставляется Sourcegraph Extension API.   
+
+В состав серверной части входят:  
+Cервисы для обеспечения работы фронтэнда (web-интерфейса);  
+Прокси для интеграции с GitHub;  
+Git-сервер для зеркалирования репозиториев на своём хосте;  
+Индексатор для построения поискового индекса на основании содержимого репозитория с учётом семантики кода на разных языках;  
+Lsp-proxy для взаимодействия с LSP-модулями для разбора кода на разных языках программирования (имеются собственные модули для Go, Java, TypeScript/JavaScript, Python и PHP);  
+query-runner для выполнения проверочных поисковых запросов и отправки уведомлений;  
+Repo-updater для отслеживания актуальности репозитория и его обновления при необходимости;  
+Searcher для поиска в git-архиве;  
+Indexed-search/zoekt для поиска с привлечением предварительно построенного индекса;  
+Symbols для индексации с учётом обработки в Ctags;  
+Syntect для обеспечения подсветки синтаксиса;  
+Модули для интеграции с редакторами кода и интегрированными средами разработки.  
+Проект вместо проприетарного продукта теперь будет развиваться в соответствии с моделью OpenCore, которая подразумевает наличие открытой базовой части с поставкой дополнительной функциональности в виде платных редакций. Например, среди возможностей, доступных только в платной версии, упоминаются поддержка механизма единой аутентификации (SSO), кластеризация, навигация с охватом разных репозиториев, поддержка внешних СУБД и расширенная система логов.  
+
+
 [Sourcegraph](https://about.sourcegraph.com/) OSS edition is a fast, open-source, fully-featured code search and navigation engine. [Enterprise editions](https://about.sourcegraph.com/pricing) are available.
 
 ![Screenshot](https://user-images.githubusercontent.com/1646931/46309383-09ba9800-c571-11e8-8ee4-1a2ec32072f2.png)
