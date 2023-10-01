@@ -3,6 +3,10 @@ load("@npm//:defs.bzl", "npm_link_all_packages")
 load("//dev:defs.bzl", "npm_package", "ts_project")
 load("//dev:eslint.bzl", "eslint_config_and_lint_root")
 
+# TODO(sqs): needs to be fixed, but suppress for now
+# gazelle:js_ignore_imports ../../../../postcss.config
+# gazelle:js_ignore_imports ../../../../../../../../postcss.config
+
 npm_link_all_packages(name = "node_modules")
 
 eslint_config_and_lint_root()
@@ -56,13 +60,8 @@ ts_project(
         "//:node_modules/@babel/runtime",  #keep
         "//:node_modules/@types/node",
         "//:node_modules/@types/signale",
-        "//:node_modules/autoprefixer",
         "//:node_modules/monaco-editor",  #keep
         "//:node_modules/monaco-yaml",  #keep
-        "//:node_modules/postcss-custom-media",
-        "//:node_modules/postcss-focus-visible",
-        "//:node_modules/postcss-inset",
-        "//:postcss_config_js",
     ],
 )
 
