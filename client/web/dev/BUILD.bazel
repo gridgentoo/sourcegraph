@@ -5,9 +5,6 @@ load("//dev:defs.bzl", "ts_project")
 # gazelle:js_files **/*.{ts,tsx}
 # gazelle:js_test_files there-are-no-tests
 
-# TODO(bazel): wip - currently broken
-# gazelle:exclude **/server/development.server.ts
-
 ts_config(
     name = "tsconfig",
     src = "tsconfig.json",
@@ -21,7 +18,7 @@ ts_project(
     name = "dev",
     srcs = [
         "mocks/mockEventLogger.ts",
-        "server/bazel.server.ts",
+        "server/development.server.ts",
         "server/production.server.ts",
         "utils/constants.ts",
         "utils/create-js-context.ts",
@@ -53,8 +50,6 @@ ts_project(
         "//:node_modules/jsonc-parser",
         "//:node_modules/lodash",
         "//:node_modules/signale",
-        "//:node_modules/webpack",
-        "//:node_modules/webpack-dev-server",
         "//client/web:node_modules/@sourcegraph/build-config",
         "//client/web:web_lib",
     ],

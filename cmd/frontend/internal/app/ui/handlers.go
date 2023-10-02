@@ -386,7 +386,7 @@ func serveEmbed(db database.DB) handlerFunc {
 
 		// 🚨 SECURITY: Removing the `X-Frame-Options` header allows embedding the `/embed` route in an iframe.
 		// The embedding is safe because the `/embed` route serves the `embed` JS bundle instead of the
-		// regular Sourcegraph (web) app bundle (see `client/web/webpack.config.js` for the entrypoint definitions).
+		// regular Sourcegraph (web) app bundle (see `client/web/BUILD.bazel` for the entrypoint definitions).
 		// It contains only the components needed to render the embedded content, and it should not include sensitive pages, like the sign-in page.
 		// The embed bundle also has its own React router that only recognizes specific routes (e.g., for embedding a notebook).
 		//

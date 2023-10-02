@@ -21,6 +21,7 @@ export const getManifest = (
 })
 
 const writeManifest = async (manifest: WebpackManifest): Promise<void> => {
+    await fs.promises.mkdir(path.dirname(WEBPACK_MANIFEST_PATH), { recursive: true })
     await fs.promises.writeFile(WEBPACK_MANIFEST_PATH, JSON.stringify(manifest, null, 2))
 }
 

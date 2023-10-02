@@ -1,4 +1,33 @@
-# TODO(bazel): esbuild dev tools currently disabled in bazel
-# See client/build-config/src/esbuild/BUILD.bazel
+load("//dev:defs.bzl", "ts_project")
+load("@aspect_rules_js//js:defs.bzl", "js_library")
 
-# gazelle:js disabled
+# gazelle:js_files **/*.ts
+# gazelle:js_test_files there-are-no-tests
+
+ts_project(
+    name = "esbuild",
+    srcs = [
+        "build.ts",
+        "manifestPlugin.ts",
+    ],
+    module = "commonjs",
+    tsconfig = "//client/web/dev:tsconfig",
+    visibility = ["//client:__subpackages__"],
+    deps = [
+        "//:node_modules/@types/node",
+        "//:node_modules/esbuild",
+        "//client/browser:node_modules/@sourcegraph/build-config",
+        "//client/web/dev",
+    ],
+)
+
+js_library(
+    name = "esbuild-config",
+    srcs = ["esbuild.bazel.js"],
+    visibility = ["//client:__subpackages__"],
+    deps = [
+        "//client/build-config:build-config_lib",
+        "//client/web:node_modules/@sourcegraph/build-config",
+        "//client/web/dev/esbuild",
+    ],
+)
