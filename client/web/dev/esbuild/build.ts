@@ -23,13 +23,17 @@ import { manifestPlugin } from './manifestPlugin'
 
 const isCodyApp = ENVIRONMENT_CONFIG.CODY_APP
 const omitSlowDeps = ENVIRONMENT_CONFIG.DEV_WEB_BUILDER_OMIT_SLOW_DEPS
+const IS_EMBED_ENTRY_POINT_ENABLED = IS_PRODUCTION || (IS_DEVELOPMENT && ENVIRONMENT_CONFIG.EMBED_DEVELOPMENT)
 
 export const BUILD_OPTIONS: esbuild.BuildOptions = {
-    entryPoints: [
-        isCodyApp
-            ? path.join(ROOT_PATH, 'client/web/src/enterprise/app/main.tsx')
-            : path.join(ROOT_PATH, 'client/web/src/enterprise/main.tsx'),
-    ],
+    entryPoints: isCodyApp
+        ? [path.join(ROOT_PATH, 'client/web/src/enterprise/app/main.tsx')]
+        : [
+              path.join(ROOT_PATH, 'client/web/src/enterprise/main.tsx'),
+              IS_EMBED_ENTRY_POINT_ENABLED
+                  ? path.join(ROOT_PATH, 'client/web/src/enterprise/embed/embedMain.tsx')
+                  : null,
+          ].filter((path): path is string => path !== null),
     bundle: true,
     minify: IS_PRODUCTION,
     format: 'esm',
